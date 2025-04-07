@@ -1,0 +1,169 @@
+🔰 Phase 0: DSA ke Ground Rules (1 Day)
+      
+📌 Topics:
+
+            What is DSA?
+            
+            Importance in placements
+            
+            Real-life use-cases
+            
+            Time Complexity – Basics
+            
+            Space Complexity – Basics
+            
+            👉 Isme bas theory + small practice, taaki tu har topic me complexity analyze kar sake.
+
+
+
+
+✅ Phase 1: Array (7-10 Days)
+      
+📌 Topics (in order):
+            
+            What is Array, memory, indexing
+            
+            Traversal, Insertion, Deletion (Complexity bhi saath me)
+            
+            Searching in Arrays (Linear + Binary Search)
+            
+            Reverse Array (2-pointer)
+            
+            Max/Min in array
+            
+            Left/Right Rotation
+            
+            Kth Largest/Smallest Element
+            
+            Kadane’s Algorithm
+            
+            Prefix Sum
+            
+            Sliding Window
+            
+            Hashing in Array Problems (Map, Set)
+
+
+
+✅ Phase 2: Strings (4-5 Days)
+
+        📌 Topics:
+        
+              Basics of string & immutability
+              
+              Palindrome
+              
+              Anagram
+              
+              String reversal
+              
+              Substrings vs Subsequences
+              
+              String matching algorithms (KMP etc. optional)
+
+✅ Phase 3: Recursion (5-6 Days)
+📌 Topics:
+
+What is recursion? Base Case, Recursive case
+
+Stack space & recursion tree
+
+Factorial, Fibonacci
+
+Backtracking intro
+
+Subsets, Permutations, N-Queens
+
+✅ Phase 4: Sorting (4-5 Days)
+📌 Topics:
+
+Bubble, Selection, Insertion
+
+Merge Sort
+
+Quick Sort
+
+Count Sort
+
+Sorting with Comparator
+
+✅ Phase 5: Linked List (5-6 Days)
+📌 Topics:
+
+Singly Linked List – Create, Traverse
+
+Insertion, Deletion
+
+Reverse LL (Iterative & Recursive)
+
+Detect cycle (Floyd’s Algo)
+
+Middle of LL
+
+Merge Two Sorted LL
+
+✅ Phase 6: Stack & Queue (5-6 Days)
+📌 Topics:
+
+Stack using array/LL
+
+Infix/Postfix/Prefix
+
+Queue using array/LL
+
+Circular Queue
+
+Monotonic Stack
+
+Sliding Window Maximum
+
+✅ Phase 7: Trees (7-10 Days)
+📌 Topics:
+
+Binary Tree basics
+
+Inorder/Preorder/Postorder
+
+BFS, DFS
+
+Height, Diameter
+
+Balanced Tree
+
+Binary Search Tree
+
+LCA, Top View, Bottom View
+
+✅ Phase 8: Graphs (7-10 Days)
+📌 Topics:
+
+Adjacency List/Matrix
+
+BFS/DFS
+
+Cycle Detection
+
+Topological Sort
+
+Dijkstra, Prim's, Kruskal
+
+Disjoint Set Union (DSU)
+
+✅ Phase 9: Greedy + DP (10+ Days)
+📌 Topics:
+
+Activity selection
+
+Fractional Knapsack
+
+Fibonacci using DP
+
+0/1 Knapsack
+
+DP on grid
+
+LIS, LCS
+
+MCM, DP on subsequences
+
+✅ Phase 10: Backtracking + Bit Manipulation + Tries + Heaps
