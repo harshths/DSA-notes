@@ -1,0 +1,67 @@
+🔷 1. What is DSA (Data Structures & Algorithms)?
+
+    📌 Data Structure –
+        "It is a way to store and organize data in memory, so that we can use it efficiently."
+
+              📚 Examples:
+                    Array
+                    
+                    Linked List
+                    
+                    Stack
+                    
+                    Queue
+                    
+                    Tree
+                    
+                    Graph
+                    
+                    HashMap etc.
+
+
+    📌 Algorithm –
+        "It is a step-by-step procedure to solve a particular problem."
+        
+      📚 Examples:
+          Searching (Linear Search, Binary Search)
+          
+          Sorting (Bubble, Merge, Quick)
+          
+          Graph traversal (BFS, DFS)
+          
+          Dynamic Programming etc.
+
+
+          📦 In short:
+                DS → How to store data
+                Algo → How to solve problems using that data
+
+
+
+      🔥 Real-Life Examples:
+
+                Real-Life Task	      Data Structure	      Algorithm
+
+              Contacts in Phone	       Array/Trie	        Searching/Sorting
+              Google Maps	              Graph	           Dijkstra's Algorithm
+              Call Stack in Code	      Stack	           Recursion/Backtracking
+              Task Scheduling (CPU)	    Queue	         Round Robin/FIFO Algorithm
+
+
+
+      🤔 Why DSA is Important?
+
+            Placement me 90% questions DSA pe hote hain
+            
+            Problem-solving skills sharp ho jate hain
+            
+            Big tech companies (Google, Amazon, Microsoft) DSA pe hi focus karte hain
+            
+            Optimized code likhna seekh jaate ho
+            
+            System Design samajhne me help karta hai
+            
+            ⚠️ Without DSA = You are just a typist, not a coder!
+
+
+
