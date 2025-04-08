@@ -1,1 +1,304 @@
+🔷 Time Complexity – Detailed Explanation
+
+💬 Definition:
+        Time complexity tells us how much time an algorithm will take to run as the input size increases.
+        
+        Iska matlab ye nahi ki exactly 10 sec ya 1 min lagega, balki ye batata hai ki jaise-jaise input badhta hai, time ka behavior kaise badh raha hai.
+
+
+
+🧠 Why we use Big-O Notation?
+      Big-O ek mathematical way hai performance express karne ka.
+      
+      Hum always worst-case scenario dekhte hain — taaki pata ho ki max time kitna lag sakta hai.
+
+
+
+📈 Most Common Time Complexities
+          Complexity	                Name	                     Example Use Case
+              O(1)	              Constant Time	              Accessing index of array
+              O(log n)	          Logarithmic	                    Binary Search
+              O(n)	                Linear	                    Loop over array
+              O(n log n)	        Linearithmic	              Merge Sort, Quick Sort (avg)
+              O(n²)	                Quadratic	                  Nested loops (Bubble Sort)
+              O(2ⁿ)	              Exponential	                    Recursive Fibonacci
+              O(n!)	                Factorial	                Permutations/Backtracking (TSP)
+
+
+
+✅ Examples of Code and Time Complexity
+
+        🟢 O(1) – Constant Time
+                    public static int firstElement(arr)
+                    {
+                          return arr[0];
+                    }
+
+                    Even array me 1 crore elements ho, arr[0] ek hi step me milta hai.
+
+
+        🟡 O(n) – Linear Time
+
+                  public static void printAll(arr){
+                      for(int i : arr){
+                          System.out.println(i);
+                      }
+                  }
+                  
+                  10 elements → 10 steps
+                  1 crore elements → 1 crore steps
+
+
+        🔴 O(n²) – Quadratic Time
+        
+                for i in range(n):
+                    for j in range(n):
+                        print(i, j)
+        
+                Ek loop O(n), dusra bhi O(n) → Total = O(n × n) = O(n²)
+
+
+        🔷 O(log n) – Logarithmic Time
+      
+              # Binary Search
+                  low = 0
+                  high = n-1
+                  while low <= high:
+                      mid = (low + high) // 2
+                      if arr[mid] == target:
+                          return mid
+                      elif arr[mid] < target:
+                          low = mid + 1
+                      else:
+                          high = mid - 1
+
+                  Har step me input half ho raha hai → n → n/2 → n/4 → n/8 ... = O(log n)
+
+
+
+🎯 Important Points for Time Complexity:
+
+          Loop → mostly O(n)
+          
+          Nested loop → O(n²)
+          
+          Divide & Conquer → O(log n) or O(n log n)
+          
+          Recursion → Can be anything! (Need dry-run or recurrence relation)
+
+
+
+✅ Step-by-Step Shortcut
+
+          1. Line-by-line check kar
+          
+          2. Loops dhoondh:
+          
+                  Loop of n → O(n)
+                  
+                  Nested loop → Multiply: O(n²)
+                  
+                  Loop that halves → O(log n)
+
+          
+          3. Function calls:
+          
+                Recursion → check how many times call ho raha hai
+          
+          
+          4. Ignore constants like 2n → O(n), n+100 → O(n)
+          
+          5. Multiple loops (not nested) → Add: O(n) + O(m) = O(n + m)
+          
+          6. Conditionals (if/else) → Max one chalega, to take worst-case one
+
+
+🧪 Examples:
+        ✅ Example 1: Single loop
+              
+              for(int i = 0; i < n; i++) {
+                  System.out.println(i);
+              }
+
+              ⏱ Time Complexity = O(n)
+
+
+        ✅ Example 2: Nested Loop
+        
+              for(int i = 0; i < n; i++) {
+                  for(int j = 0; j < n; j++) {
+                      System.out.println(i + ", " + j);
+                  }
+              }
+
+              ⏱ Time Complexity = O(n²)
+
+
+        ✅ Example 3: Two separate loops
+
+              for(int i = 0; i < n; i++) {
+                  System.out.println(i);
+              }
+              for(int j = 0; j < m; j++) {
+                  System.out.println(j);
+              }
+
+              ⏱ Time Complexity = O(n + m)
+
+
+        ✅ Example 4: Binary Search
+        
+              while(low <= high) {
+                  int mid = (low + high)/2;
+                  if(arr[mid] == target) return mid;
+                  else if(arr[mid] < target) low = mid + 1;
+                  else high = mid - 1;
+              }
+
+              ⏱ Time Complexity = O(log n)
+
+
+        ✅ Example 5: Recursion
+                Jab ek function khud ko baar-baar multiple times call karta hai, aur har ek call se 2 aur calls bante hain — tab hoti hai O(2^n) complexity.
+
+Ye recursion tree banata hai — jisme har level pe number of function calls double ho jaate hain.
+
+                                          fib(4)
+                                       /         \
+                                   fib(3)       fib(2)
+                                  /     \        /     \
+                             fib(2)   fib(1)  fib(1)  fib(0)
+                             /    \
+                         fib(1)  fib(0)
+
+
+                int fib(int n) {
+                    if(n <= 1) return n;
+                    return fib(n-1) + fib(n-2);
+                }
+
+                ⏱ Time Complexity = O(2^n) ❗(because tree recursion)
+
+                  Ab dekh — kitne function calls ban rahe hain?
+                  
+                  ➡ fib(4) → 1 call
+                  ➡ fib(3), fib(2) → 2 calls
+                  ➡ fib(2), fib(1), fib(1), fib(0) → 4 calls
+                  ➡ fib(1), fib(0) → 2 calls
+                  
+                  Total = 1 + 2 + 4 + 2 = 9 calls
+                  
+                  Pattern: Har level pe calls double ho rahe hain ⇒ 1, 2, 4, 8, …
+                  That’s why it's O(2^n)
+
+                ❗ Kyu Kharab Hai ye?
+                            Agar tu fib(40) karega — to almost 1 billion calls honge 😨
+                            Slow, inefficient, waste of CPU and time…
+
+
+
+🔷 Space Complexity – Detailed Explanation
+
+💬 Definition:
+        Space complexity is the total memory space used by an algorithm including input + auxiliary (extra) space.
+
+
+✅ What contributes to space?
+        Input space (already given data)
+        
+        Variables
+        
+        Recursion stack space
+        
+        New data structures (arrays, hashmaps)
+
+
+📈 Common Space Complexities
+              Complexity	          Meaning	                      Example
+                O(1)	            Constant space	          No extra storage
+                O(n)	            Linear space	            Making new array
+                O(n²)	              Matrix	                      2D Array
+                O(log n)	        Recursion (Binary)	      Binary Search (recursive)
+
+
+✅ Examples:
+🟢 O(1) – Constant Space
+python
+Copy
+Edit
+def find_sum(arr):
+    total = 0
+    for i in arr:
+        total += i
+    return total
+Sirf total ek variable banaya → constant space
+
+🟡 O(n) – Linear Space
+python
+Copy
+Edit
+def make_copy(arr):
+    new_arr = []
+    for i in arr:
+        new_arr.append(i)
+    return new_arr
+Har element ke liye ek memory → O(n)
+
+🔴 O(n²) – 2D Matrix
+python
+Copy
+Edit
+arr = [[0]*n for _ in range(n)]
+n*n values store ho rahe hain
+
+🔁 Recursion & Space
+python
+Copy
+Edit
+def factorial(n):
+    if n == 0: return 1
+    return n * factorial(n-1)
+Har call memory stack me jaata hai
+Recursive depth = n → O(n) space
+
+⚔️ Time vs Space Trade-Off
+Kabhi kabhi hum fast algorithm ke liye zyada memory use karte hain.
+
+Example:
+
+Searching in array → O(n)
+
+Searching in hashmap → O(1) (but memory zyada)
+
+🧪 Quick Test (Check Yourself):
+python
+Copy
+Edit
+# TC? SC?
+def double_elements(arr):
+    result = []
+    for i in arr:
+        result.append(2*i)
+    return result
+✔️ Time Complexity → O(n)
+✔️ Space Complexity → O(n) (new array bana raha hai)
+
+✅ Summary
+Feature	Time Complexity	Space Complexity
+Measures	Time taken by algorithm	Memory used by algorithm
+Best	O(1)	O(1)
+Bad	O(n²), O(2ⁿ), O(n!)	O(n²), O(n)
+Related to	Loops, Recursion, etc.	Variables, Structures
+Goal	Fast solution	Less memory used
+🧠 Tips:
+Loop → time badhta hai
+
+Array/Map bana rahe ho → space badhta hai
+
+Recursion → mostly both time and space heavy
+
+Focus on asymptotic behavior (ignore constants like 2n → O(n))
+
+
+
 
