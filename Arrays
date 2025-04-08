@@ -1,9 +1,20 @@
 🔷 Topic 1: What is an Array?
 
         🔸 Definition:
-                  Array ek fixed-size container hota hai jisme same type ke elements sequentially store hote hain in contiguous memory locations.
-                  Array is fixed-size container, in which elements are squentially arrenged in contiguous memory locations....
-        
+                         Array ek fixed-size container hota hai jisme same type ke elements sequentially store hote hain in contiguous memory locations.
+                Array is fixed-size container, in which elements are squentially arrenged in contiguous memory locations....
+                Array ek linear data structure hai jisme same type ke elements ek contiguous memory block me store hote hain.
+
+
+                Matlab:
+                                
+                                Ek hi data type (int, float, string, etc.)
+                                
+                                Memory me side-by-side store hote hain
+                                
+                                Indexing 0 se start hoti hai
+                
+                
         🔸 Example:
                     int[] arr = {10, 20, 30, 40, 50};
                     arr[0] = 10, arr[1] = 20, ... and so on
@@ -19,7 +30,8 @@
                 ✅ Indexed	Access by index (O(1) time)
                 ✅ Homogeneous	All elements same data type
                 ✅ Contiguous Memory	Speedy access
-        
+
+
         🔹 Why Array is Powerful?    
                 Fast access: arr[i] = O(1)
 
