@@ -1,169 +1,146 @@
-🔰 Phase 0: DSA ke Ground Rules (1 Day)
-      
-📌 Topics:
+Data Structures
+What are Data Structures?
 
-            What is DSA?
-            
-            Importance in placements
-            
-            Real-life use-cases
-            
-            Time Complexity – Basics
-            
-            Space Complexity – Basics
-            
-            👉 Isme bas theory + small practice, taaki tu har topic me complexity analyze kar sake.
+Importance of Data Structures
 
+Basic Data Structures
+Array
 
+Linked Lists
 
+Stacks
 
-✅ Phase 1: Array (7-10 Days)
-      
-📌 Topics (in order):
-            
-            What is Array, memory, indexing
-            
-            Traversal, Insertion, Deletion (Complexity bhi saath me)
-            
-            Searching in Arrays (Linear + Binary Search)
-            
-            Reverse Array (2-pointer)
-            
-            Max/Min in array
-            
-            Left/Right Rotation
-            
-            Kth Largest/Smallest Element
-            
-            Kadane’s Algorithm
-            
-            Prefix Sum
-            
-            Sliding Window
-            
-            Hashing in Array Problems (Map, Set)
+Queues
 
+Hash Tables
 
+Algorithmic Complexity
+Asymptotic Notation
 
-✅ Phase 2: Strings (4-5 Days)
+Big O Notation
 
-        📌 Topics:
-        
-              Basics of string & immutability
-              
-              Palindrome
-              
-              Anagram
-              
-              String reversal
-              
-              Substrings vs Subsequences
-              
-              String matching algorithms (KMP etc. optional)
+Big-θ Notation
 
-✅ Phase 3: Recursion (5-6 Days)
-📌 Topics:
+Big-Ω Notation
 
-What is recursion? Base Case, Recursive case
+Common Runtimes
 
-Stack space & recursion tree
+Constant
 
-Factorial, Fibonacci
+Logarithmic
 
-Backtracking intro
+Linear
 
-Subsets, Permutations, N-Queens
+Polynomial
 
-✅ Phase 4: Sorting (4-5 Days)
-📌 Topics:
+Exponential
 
-Bubble, Selection, Insertion
+Factorial
+
+Time vs Space Complexity
+
+How to Calculate Complexity?
+
+Sorting Algorithms
+Bubble Sort
+
+Insertion Sort
+
+Selection Sort
 
 Merge Sort
 
 Quick Sort
 
-Count Sort
+Heap Sort
 
-Sorting with Comparator
+Search Algorithms
+Linear Search
 
-✅ Phase 5: Linked List (5-6 Days)
-📌 Topics:
+Binary Search
 
-Singly Linked List – Create, Traverse
+Tree Data Structures
+Binary Trees
 
-Insertion, Deletion
+Binary Search Trees
 
-Reverse LL (Iterative & Recursive)
+AVL Trees
 
-Detect cycle (Floyd’s Algo)
+B-Trees
 
-Middle of LL
+Tree Traversal
+In-Order Traversal
 
-Merge Two Sorted LL
+Pre-Order Traversal
 
-✅ Phase 6: Stack & Queue (5-6 Days)
-📌 Topics:
+Post-Order Traversal
 
-Stack using array/LL
+Search Algorithms (Graphs)
+Breadth First Search
 
-Infix/Postfix/Prefix
+Depth First Search
 
-Queue using array/LL
+Graph Data Structure
+Directed Graph
 
-Circular Queue
+Undirected Graph
 
-Monotonic Stack
+Search Algorithms
+Breadth First Search
 
-Sliding Window Maximum
+Depth First Search
 
-✅ Phase 7: Trees (7-10 Days)
-📌 Topics:
+Shortest Path Algos
+Dijkstra's Algorithm
 
-Binary Tree basics
+Bellman-Ford
 
-Inorder/Preorder/Postorder
+Minimum Spanning Tree
+Prim's Algorithm
 
-BFS, DFS
+Kruskal's Algorithm
 
-Height, Diameter
+Advanced Data Structures
+Trie
 
-Balanced Tree
+Segment Trees
 
-Binary Search Tree
+Fenwick Trees
 
-LCA, Top View, Bottom View
+Disjoint Set (Union-Find)
 
-✅ Phase 8: Graphs (7-10 Days)
-📌 Topics:
+Suffix Trees and Arrays
 
-Adjacency List/Matrix
+Complex Data Structures
+B/B+ Trees
 
-BFS/DFS
+Skip List
 
-Cycle Detection
+ISAM
 
-Topological Sort
+2-3 Trees
 
-Dijkstra, Prim's, Kruskal
+Indexing
+Linear Indexing
 
-Disjoint Set Union (DSU)
+Tree-Based Indexing
 
-✅ Phase 9: Greedy + DP (10+ Days)
-📌 Topics:
+Problem Solving Techniques
+Brute Force
 
-Activity selection
+Greedy Algorithms
 
-Fractional Knapsack
+Divide and Conquer
 
-Fibonacci using DP
+Dynamic Programming
 
-0/1 Knapsack
+Backtracking
 
-DP on grid
+Randomised Algorithms
 
-LIS, LCS
+Recursion
 
-MCM, DP on subsequences
+Two Pointer Technique
 
-✅ Phase 10: Backtracking + Bit Manipulation + Tries + Heaps
+Sliding Window Technique
+
