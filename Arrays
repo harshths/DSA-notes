@@ -111,6 +111,10 @@
                 Size is dynamic (→ Use ArrayList)
                 
                 Frequent insert/delete from middle (→ Use LinkedList)
+
+
+
+
                           
 
 
