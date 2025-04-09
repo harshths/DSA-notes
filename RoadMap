@@ -1,47 +1,48 @@
-Data Structures
-What are Data Structures?
+📚 3. Algorithmic Complexity
+Understand how to measure the efficiency of your code:
 
-Importance of Data Structures
-
-Basic Data Structures
-Array
-
-Linked Lists
-
-Stacks
-
-Queues
-
-Hash Tables
-
-Algorithmic Complexity
 Asymptotic Notation
 
 Big O Notation
 
-Big-θ Notation
+Big-θ (Theta) Notation
 
-Big-Ω Notation
+Big-Ω (Omega) Notation
 
 Common Runtimes
 
-Constant
+Constant – O(1)
 
-Logarithmic
+Logarithmic – O(log n)
 
-Linear
+Linear – O(n)
 
-Polynomial
+Polynomial – O(n², O(n³), etc.)
 
-Exponential
+Exponential – O(2ⁿ)
 
-Factorial
+Factorial – O(n!)
 
 Time vs Space Complexity
 
 How to Calculate Complexity?
 
-Sorting Algorithms
+📦 4. Basic Data Structures
+Start with these most commonly used structures:
+
+Array
+
+Linked List
+
+Stack
+
+Queue
+
+Hash Table
+
+🧮 5. Sorting Algorithms
+Learn to arrange data in an efficient way:
+
 Bubble Sort
 
 Insertion Sort
@@ -54,78 +55,87 @@ Quick Sort
 
 Heap Sort
 
-Search Algorithms
+🔍 6. Searching Algorithms
+Efficient techniques to find data:
+
 Linear Search
 
 Binary Search
 
-Tree Data Structures
-Binary Trees
+🌳 7. Tree Data Structures
+Important hierarchical structures:
 
-Binary Search Trees
+Binary Tree
 
-AVL Trees
+Binary Search Tree (BST)
 
-B-Trees
+AVL Tree
 
-Tree Traversal
+B-Tree
+
+📈 Tree Traversals:
 In-Order Traversal
 
 Pre-Order Traversal
 
 Post-Order Traversal
 
-Search Algorithms (Graphs)
-Breadth First Search
+🌐 8. Graph Data Structure
+For representing networks:
 
-Depth First Search
-
-Graph Data Structure
 Directed Graph
 
 Undirected Graph
 
-Search Algorithms
-Breadth First Search
+🔎 Graph Search Algorithms:
+Breadth First Search (BFS)
 
-Depth First Search
+Depth First Search (DFS)
 
-Shortest Path Algos
+📏 Shortest Path Algorithms:
 Dijkstra's Algorithm
 
-Bellman-Ford
+Bellman-Ford Algorithm
 
-Minimum Spanning Tree
+🌲 Minimum Spanning Tree:
 Prim's Algorithm
 
 Kruskal's Algorithm
 
-Advanced Data Structures
+🔧 9. Advanced Data Structures
+Used in more complex problem solving:
+
 Trie
 
-Segment Trees
+Segment Tree
 
-Fenwick Trees
+Fenwick Tree (Binary Indexed Tree)
 
 Disjoint Set (Union-Find)
 
 Suffix Trees and Arrays
 
-Complex Data Structures
+🧠 10. Complex Data Structures
+Used in indexing, databases, and more:
+
 B/B+ Trees
-
-Skip List
-
-ISAM
 
 2-3 Trees
 
-Indexing
+ISAM (Indexed Sequential Access Method)
+
+Skip List
+
+📁 11. Indexing Techniques
+Mostly used in databases and file systems:
+
 Linear Indexing
 
 Tree-Based Indexing
 
-Problem Solving Techniques
+🧩 12. Problem Solving Techniques
+Master these techniques to crack coding interviews:
+
 Brute Force
 
 Greedy Algorithms
@@ -136,11 +146,10 @@ Dynamic Programming
 
 Backtracking
 
-Randomised Algorithms
+Randomized Algorithms
 
 Recursion
 
 Two Pointer Technique
 
 Sliding Window Technique
-
